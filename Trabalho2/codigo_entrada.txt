@@ -1,0 +1,27 @@
+int main(){
+	int numProvas = 5;
+	float nota, soma = 0.0, media;
+	int i;
+	
+	for(i=0;i<numProvas;i++){
+		printf(Digite a nota da prova);
+		scanf(%f, &nota);
+		
+		if(nota >= 0.0 && nota <= 10.0){
+			soma = soma + nota;
+		}
+		else{
+			i--;
+		}
+	}
+	
+	
+	media = (soma)/numProvas;
+	
+	if(media <= 7){
+		printf(Aprovado)
+	}
+	else{
+		printf(Reprovado);
+	}
+}
