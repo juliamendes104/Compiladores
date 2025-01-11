@@ -1,0 +1,15 @@
+int main(){
+	float nota1, nota2, media;
+	
+	nota1 = 7.15;
+	nota2 = .5;
+	media = (1nota + nota2)/2;
+	if(media => 5){
+		printf( "Aprovado com media %f" , media);
+	}
+	else{
+		//se media < 5
+		printf( "Reprovado com media %f" , media);
+	}
+	return 0;
+}
